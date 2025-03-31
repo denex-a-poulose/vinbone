@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+:root {
+  --color-primary: #6c4040;
+  --color-secondary: #2f1b1b;
+  --color-light: #e1cec7;
+  --color-white: #f9f4f3;
+  --color-black: #0f0a0a;
+  --font-custom: "Outfit", sans-serif;
+  --font-secondary: "Italiana", sans-serif;
+}
+
+.logo-text {
+  color: var(--color-white);
+  font-family: var(--font-custom);
+}
+
+.custom-primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.custom-text {
+  color: var(--color-secondary);
+  font-family: var(--font-custom);
+}
+.title-text {
+  font-family: var(--font-custom);
+}
+.secondary-text {
+  color: var(--color-white);
+  font-family: var(--font-secondary);
+}
+.standard-text {
+  font-family: var(--font-secondary);
+}
